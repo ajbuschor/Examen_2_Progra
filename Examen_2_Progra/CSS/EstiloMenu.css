@@ -1,0 +1,26 @@
+﻿.menu {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center; /* Alineación centrada */
+}
+
+    .menu li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+        .menu li a {
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+            .menu li a:hover {
+                background-color: #555;
+                border-radius: 5px;
+            }
+
+.active {
+    background-color: #555;
+    border-radius: 5px;
+}
